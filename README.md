@@ -1,4 +1,4 @@
-# Bem vindos a aula de programação Front-🔚
+# VINICIUS EDSON
 - Olá meu nome é Vinicius🥷🏽  
 - Meu email de contato é vinicius.edson.matos@escola.pr.gov.br 🆓
 
