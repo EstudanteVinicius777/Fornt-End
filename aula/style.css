@@ -1,0 +1,58 @@
+@charset "utf-8";
+body {
+    background-color: blueviolet;
+}
+
+#bt1 {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightsalmon;
+}
+
+#bt2 {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightseagreen;
+}
+
+#bt3 {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgreen;
+}
+
+button {
+    margin-top: 90;
+    width: 120px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
