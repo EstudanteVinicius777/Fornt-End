@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefa</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <h1>Clique em um link e descubra o site</h1>
+
+    <a href="https://twitter.com/ " target="_blank " rel="noopener noreferrer ">
+        <button id="bt1" onclick="clicar1()" onmouseenter="entrar1()" onmouseout="sair1()">Twiter</button>
+    </a>
+
+    <a href="https://www.wikipedia.org/" target="_blank " rel="noopener noreferrer ">
+        <button id="bt2" onclick="clicar2()" onmouseenter="entrar2()" onmouseout="sair2()">Wikipedia</button>
+    </a>
+
+    <a href="https://www.reddit.com/?rdt=35296" target="_blank " rel="noopener noreferrer ">
+        <button id="bt3" onclick="clicar3()" onmouseenter="entrar3()" onmouseout="sair3()">Reddit</button>
+    </a>
+
+    </div>
+
+    <script>
+        //div1
+        function clicar1() {
+            var a = window.document.getElementById('bt1')
+            a.innerText = 'Clicou'
+            a.style.background = 'orange'
+            object.style.textAlign = "center "
+        }
+
+        function entrar1() {
+            var e = window.document.getElementById('bt1')
+            e.innerText = 'Entrou'
+            e.style.background = 'red'
+        }
+
+        function sair1() {
+            var s = window.document.getElementById('bt1')
+            s.innerText = 'Twitter'
+            s.style.background = 'lightsalmon'
+        }
+        //div2
+        function clicar2() {
+            var a = window.document.getElementById('bt2')
+            a.innerText = 'Clicou'
+            a.style.background = 'green'
+            object.style.textAlign = "center "
+        }
+
+        function entrar2() {
+            var e = window.document.getElementById('bt2')
+            e.innerText = 'Entrou'
+            e.style.background = 'red'
+        }
+
+        function sair2() {
+            var s = window.document.getElementById('bt2')
+            s.innerText = 'Wikipedia'
+            s.style.background = 'lightseagreen'
+        }
+        //div3
+        function clicar3() {
+            var a = window.document.getElementById('bt3')
+            a.innerText = 'Clicou'
+            a.style.background = 'green'
+            object.style.textAlign = "center "
+        }
+
+        function entrar3() {
+            var e = window.document.getElementById('bt3')
+            e.innerText = 'Entrou'
+            e.style.background = 'red'
+        }
+
+        function sair3() {
+            var s = window.document.getElementById('bt3')
+            s.innerText = 'Reddit'
+            s.style.background = 'lightgreen'
+        }
+    </script>
+</body>
+
+</html>
